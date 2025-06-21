@@ -103,27 +103,65 @@ body{
     height: 100vh;
     width: 100%;
 }
-.skill{
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
-    
+.skill {
+  width: 70rem;
+  margin: 150px auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 .skill-heading{
     color: white;
     font-size: 45px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 25pz;
+    margin-bottom: 25px;
 
 }
 .skill-data{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 25px;
 
 }
 .my-skill{
     display: flex;
     gap: 5px;
+    margin-bottom: 15px;
+}
+
+.flex{
+    display: flex;
+
+}
+.justify-center{
+    justify-content: center;
+}
+.gap{
+    gap: 5px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.skill-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.skill-con{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    display: flex;
+    color: white;
+}
+.skill-range{
+   width: 80%;
+   background-color: rgb(16, 205, 252); 
+   height: 5px;
+}
+.range{
+    color: white;
 }
