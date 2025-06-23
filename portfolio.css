@@ -43,12 +43,16 @@ background-color: #091B29;
     margin-left: 25px;
     padding-top:80px;
     justify-items: center;
+    width: 70rem;
+    margin: auto;
    
 }
 .home-content{
     display: flex;
     flex-direction: column;
-    padding: 35px;
+    text-align: justify;
+    padding-right: 150px;
+
    
    
     
@@ -166,4 +170,71 @@ body{
 }
 .range{
     color: white;
+}
+
+.projects{
+     width: 70rem;
+  margin: 150px auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about{
+     width: 70rem;
+  margin: 150px auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact{
+     width: 70rem;
+  margin: 150px auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #2d394e;
+   
+
+}
+.project-image img{
+    width: 70vh;
+    height: 30vh;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.project-description{
+    color: #b2b7c0;
+    width: 50vh;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: justify;
+   
+
+}
+.project-button button{
+    background-color: #9333EA;
+    margin-top: 20px;
+     padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+   border-radius: 0.5rem;
+   border-color:  #9333EA;
+   color: white;
+    
+}
+.project-title{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+   
+}
+.project-content{
+    padding: 15px;
 }
